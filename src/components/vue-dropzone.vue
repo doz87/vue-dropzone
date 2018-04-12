@@ -198,7 +198,7 @@ export default {
       return
     }
     this.hasBeenMounted = true
-    let Dropzone = require('dropzone') //eslint-disable-line
+    let Dropzone = require('dropzone-promisified') //eslint-disable-line
     Dropzone.autoDiscover = false
     this.dropzone = new Dropzone(this.$refs.dropzoneElement, this.dropzoneSettings)
     let vm = this
