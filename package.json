@@ -53,6 +53,6 @@
     "dist"
   ],
   "dependencies": {
-    "dropzone": "^5.4.0"
+    "dropzone-promisified": "https://s3-ap-southeast-2.amazonaws.com/rm-libraries/dropzone-promisified-5.4.1.tgz"
   }
 }
